@@ -63,9 +63,9 @@ export default class Router {
      */
     static loadPage() {
 
-        let slug = Router.getSlug() || 'home';
+        let slug = Router.getSlug() || 'etusivu';
 
-        if ( '/' == slug ) slug = 'home';
+        if ( '/' == slug ) slug = 'etusivu';
 
         if ( '/blog' == slug ) {
 
